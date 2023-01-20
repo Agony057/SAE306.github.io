@@ -1,0 +1,1486 @@
+/* #region Import police */
+
+    /* #region Montserrat */
+@font-face {
+    font-family: Montserrat;
+    src: url(lib/fonts/Montserrat/Montserrat-Black.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(lib/fonts/Montserrat/Montserrat-BlackItalic.ttf);
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(lib/fonts/Montserrat/Montserrat-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(lib/fonts/Montserrat/Montserrat-BoldItalic.ttf);
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(lib/fonts/Montserrat/Montserrat-ExtraBold.ttf);
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(lib/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf);
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(lib/fonts/Montserrat/Montserrat-ExtraLight.ttf);
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(lib/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf);
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(lib/fonts/Montserrat/Montserrat-Italic.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(lib/fonts/Montserrat/Montserrat-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(lib/fonts/Montserrat/Montserrat-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(lib/fonts/Montserrat/Montserrat-LightItalic.ttf);
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(lib/fonts/Montserrat/Montserrat-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(lib/fonts/Montserrat/Montserrat-MediumItalic.ttf);
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(lib/fonts/Montserrat/Montserrat-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(lib/fonts/Montserrat/Montserrat-SemiBold.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(lib/fonts/Montserrat/Montserrat-SemiBoldItalic.ttf);
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(lib/fonts/Montserrat/Montserrat-Thin.ttf);
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(lib/fonts/Montserrat/Montserrat-ThinItalic.ttf);
+    font-weight: 100;
+    font-style: italic;
+}   /* #endregion */
+
+    /* #region Press Start 2P */
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url(lib/fonts/Press_Start_2P/PressStart2P-Regular.ttf);
+}   /* #endregion */
+
+    /* #region Russo One */
+@font-face {
+    font-family: 'Russo One';
+    src: url(lib/fonts/Russo_One/RussoOne-Regular.ttf);
+}   /* #endregion */
+
+    /* #region Yellowtail */
+@font-face {
+    font-family: 'Yellowtail';
+    src: url(lib/fonts/Yellowtail/Yellowtail-Regular.ttf);
+}   /* #endregion */
+
+    /* #region AlienSF */
+@font-face {
+    font-family: 'AlienSF';
+    src: url(lib/fonts/SFAlien/SFAlienEncounters.ttf);
+    }
+
+@font-face {
+    font-family: 'AlienSFItalic';
+    src: url(lib/fonts/SFAlien/SFAlienEncounters-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'AlienSFSolid';
+    src: url(lib/fonts/SFAlien/SFAlienEncountersSolid.ttf);
+}
+
+@font-face {
+    font-family: 'AlienSFSolidItalic';
+    src: url(lib/fonts/SFAlien/SFAlienEncountersSolid-Ital.ttf);
+}   /* #endregion */
+
+    /*#region BungeeInLine */
+
+@font-face {
+    font-family: 'bungeeInline';
+    src: url(lib/fonts/bungeeInline.ttf);
+}
+   /* #endregion */
+
+/* #endregion Import police */
+
+/* #region Page d'accueil */
+
+body{
+    margin:0;
+    background-image: url("lib/images/background.jpg");
+    color:white;
+}
+
+#accueil-body {
+    overflow-x: hidden;
+}
+
+#accueil-titre {
+    font-family: 'Russo One';
+    text-align: center;
+    font-size: 3em;
+    background: linear-gradient(180deg, #40E5E5 30%, #FFFFFF 50%, #FF00F5 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: #FFFFFF 0.1px;
+    /* text-shadow: 4px 4px 0px black, 4px 4px 15px white; */
+    filter: drop-shadow(4px 4px 0px black) drop-shadow(2px 2px 5px rgba(255, 255, 255, 0.6));
+}
+
+#accueil-noms {
+    font-family: 'Yellowtail';
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.6em;
+    transform: rotate(-5deg);
+    text-shadow: 0px 0px 8px #FF00F5, 0px 0px 6px white;
+    margin-bottom: 6%;
+    position: relative;
+    bottom: 30px;
+    transition: 400ms;
+}
+
+#accueil-noms:hover {
+    transform: scale(200%) rotate(-5deg);
+    filter: drop-shadow(0px 0px 15px black);
+}
+
+.flex-container  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+    border-bottom:1px solid #ffffff ;
+    box-shadow:0 2px 20px #FF00F5, inset 0 -2px  #FF00F5;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    color:white;
+    font-family:"Press Start 2P" ;
+    font-size: x-large;
+    font-weight: 500;
+}
+.logo a, .navigation a {
+    text-decoration: none;
+    font-family:"Press Start 2P" ;
+    font-size:small;
+    /* letter-spacing: .45rem; */
+
+}
+.logo img{
+height: 5em;
+padding-left: 3em;
+}
+.div-nav{
+  
+    /* a changer les paddings, trouver soluc  */
+    margin: 0;
+    padding-top:auto;
+}
+
+.navigation  {
+    list-style: none;
+  display: flex;
+  margin: 0;
+  padding-right:3em ;
+}
+
+.navigation a {
+  display: block;
+  padding:2em 1em 2em 1em;
+  color: white;
+  margin:0;
+  
+
+}
+
+.navigation a:hover {
+    background: #FF00F5;
+}
+
+
+/* *********** media queries *********** */
+@media all and (max-width: 990px) and (min-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  
+  .logo {
+  margin: 0;
+}
+  
+  .navigation  {
+    width: 100%;
+    flex-wrap: wrap;
+    
+   
+  }
+}
+
+footer {
+    font-family: "Press Start 2P";
+    margin-top: 10px;
+    width: 100%;
+    height: 7.5em;
+    position: relative;
+    bottom: 0px;
+    background: black;
+        border-top:1px solid #ffffff ;
+    box-shadow:0 -2px 20px #FF00F5, inset 0 1px  #FF00F5;
+    text-align:center;
+}
+
+footer img {
+    width: 5%;
+    float: left;
+    position: relative;
+    left: 8vw;
+}
+
+footer ul {
+    list-style: none;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 3vw 0 3vw;
+}
+
+footer ul li a {
+    text-decoration: underline 0.3em;
+    background: black;
+    text-decoration-color: rgba(255, 255, 255, 0);
+    font-size: 80%;
+    transition: text-decoration-color 500ms, color 500ms;
+}
+
+#footer-li-te {
+    color: #DB323D;
+}
+
+#footer-li-te:hover {
+    color: whitesmoke;
+    text-decoration-color: #DB323D;
+}
+
+#footer-li-re {
+    color: #C200BB;
+}
+
+#footer-li-re:hover {
+    color: whitesmoke;
+    text-decoration-color: #C200BB;
+}
+
+#footer-li-an {
+    color: #00CC66;
+}
+
+#footer-li-an:hover {
+    color: whitesmoke;
+    text-decoration-color: #00CC66;
+}
+
+#footer-li-ci {
+    color: #2ADCF4;
+}
+
+#footer-li-ci:hover {
+    color: whitesmoke;
+    text-decoration-color: #2ADCF4;
+}
+
+footer p {
+    font-size: 80%;
+}
+
+#footer-p1 {
+    text-align: center;
+    margin: 2% auto auto auto;
+}
+
+#footer-p2 {
+    text-align: right;
+    margin-right: 2vw;
+}
+
+
+
+
+.card_container1{  
+        margin-top: 4em;
+    margin-bottom: 4em;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+    box-sizing: border-box;
+    justify-content: center;
+
+      }
+      .card_container2{
+        margin-top: 4em;
+    margin-bottom: 4em;
+      
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+
+        box-sizing: border-box;
+        justify-content: center;
+      }
+
+@property --rotate {
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
+  }
+  
+  :root {
+    --vignette-height: 25vw;
+    --vignette-width: calc(var(--vignette-height));
+  }
+  .Technologies{
+    background-color: #DB323D;
+  }
+  .Retrogaming{
+    background-color: #C200BB;
+  }
+  .Dessin{
+    background-color: #00CC66;
+}
+.Cinema{
+    background-color:#2ADCF4 ;
+}
+.vignette {
+    
+    width: var(--vignette-width);
+    height: var(--vignette-height);
+    padding: 3px;
+    position: relative;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 1.5em;
+    color: rgb(88 199 250 / 0%);
+    cursor: pointer;
+    font-family: cursive;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+  .vignette:hover {
+    color: rgb(88 199 250 / 100%);
+    transition: color 1s;
+  }
+
+  .vignette:hover{
+    background-color: #ffffff00;
+
+  }
+  .Technologies::before {
+    content: "";
+    width: 104%;
+    height: 104%;
+    border-radius: 8px;
+    background-image: linear-gradient(
+      var(--rotate)
+      , #d1004d, #fd8989 43%, #DB323D);
+      position: absolute;
+      z-index: -1;
+      top: -2%;
+      left: -2%;
+      animation: spin 2.5s linear infinite;
+  }
+  .Retrogaming::before {
+    content: "";
+    width: 104%;
+    height: 104%;
+    border-radius: 8px;
+    background-image: linear-gradient(
+      var(--rotate)
+      , #C200BB, #fc69f5 43%, #bf00b5);
+      position: absolute;
+      z-index: -1;
+      top: -2%;
+      left: -2%;
+      animation: spin 2.5s linear infinite;
+  }
+  .Dessin::before {
+    content: "";
+    width: 104%;
+    height: 104%;
+    border-radius: 8px;
+    background-image: linear-gradient(
+      var(--rotate)
+      , #00CC66, #62f6ac 43%, #00CC66);
+      position: absolute;
+      z-index: -1;
+      top: -2%;
+      left: -2%;
+      animation: spin 2.5s linear infinite;
+  }
+  .Cinema::before {
+    content: "";
+    width: 104%;
+    height: 104%;
+    border-radius: 8px;
+    background-image: linear-gradient(
+      var(--rotate)
+      , #1da0b1, #89e7ff 43%, #21a0c4);
+      position: absolute;
+      z-index: -1;
+      top: -2%;
+      left: -2%;
+      animation: spin 2.5s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      --rotate: 0deg;
+    }
+    100% {
+      --rotate: 360deg;
+    }
+  }
+
+  .icone-card{
+    width: 80%;
+  }
+  #intro{
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat';
+    letter-spacing: 2px;
+    line-height: 1.5em;
+    font-weight: 500;
+    font-size: large;
+  }
+
+
+
+/* #endregion Page d'accueil */
+
+
+
+/* #region Jeux-vidéos */
+#re-ancre {
+    position: fixed;
+    right: 2%;
+    bottom: 15%;
+    width: 4.2vw;
+    opacity: 50%;
+    border-radius: 100%;
+    box-shadow:0 0 20px #FF00F5;
+}
+
+#re-ancre:hover {
+    opacity: 100%;
+}
+#re_insert_title{
+    text-align: center;
+    font-family:"Press Start 2P" ;
+    font-size: x-large;
+    font-weight: 500;
+}
+#re_insert_coin{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    padding:1em;
+    margin: auto;
+
+    border: 1px solid #ffffff;
+    box-shadow:0 0 30px #FF00F5;
+
+    text-align: center;
+
+    display: table;
+    max-width:50%;
+    min-width:150px;
+
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+#re_insert_coin a{
+    font-size: xx-large;
+    color:#FFFFFF;
+    text-decoration: none;
+    font-family:"Press Start 2P" ;  
+}
+.re_insert_coin_body footer{
+    position: absolute;
+    bottom: 0;
+}
+.re_content{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat';
+    line-height: 2em;
+}
+.re_content #intro{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size:x-large;
+}
+
+.re-nav{
+    align-self: center;
+}
+.re-nav li{
+    padding-top: 1em;
+    font-size: larger;
+    color: #FF00F5;
+    font-weight: 700    ;
+    list-style-type: none;
+    text-decoration: none;
+}
+.re-nav li :hover{
+text-decoration:underline ;
+color: white;
+}
+.re-nav li:first-child{
+color: #FFFFFF;
+font-size: x-large;
+}
+.re-nav li a{
+
+    font-size: large;
+    color: rgb(255, 0, 245);
+    list-style-type: none;
+    text-decoration: none;
+}
+.re_content h3{
+    color: #FF00F5;
+    font-size: x-large;
+    font-weight: 500;
+}
+.re_content p {
+    font-size: large
+}
+
+.re-img{
+display: block;
+max-height: 50vh;
+padding: 1em;
+border-top-left-radius: 80px 80px;
+border-bottom-left-radius: 80px 80px;
+}
+.re_content .rayon_rose{
+    border-top-left-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    background-image: linear-gradient(to right, rgba(255, 0, 245,0.3), rgba(255, 0, 245,0));
+}
+.re-img-jeu{
+    
+    padding: 1em;
+    max-height: 50vh;
+}
+.re_content article{
+    display: flex;
+    border-bottom: 2px solid #FF00F5;
+    padding: 2em;
+}
+.re_content .jeu-description{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.re_content .jeu-gauche{
+    text-align: end;
+ display: flex;
+ flex-direction: row-reverse;
+}
+.re_content .outro{
+    text-align: center;
+    margin: 4em;
+}
+.re_content .rubrique{
+    margin-top: 4em;
+}
+.re_content .style-nav{
+    display: flex;
+    width: 50vw;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* #endregion Jeux-vidéos */
+
+
+
+/* #region Cinéma */
+
+#ci-ancre {
+    position: fixed;
+    right: 0.4%;
+    bottom: 18%;
+    width: 4.2vw;
+    opacity: 50%;
+}
+
+#ci-ancre:hover {
+    opacity: 100%;
+}
+
+.ci_body {
+    font-family: Montserrat;
+    text-align: justify;
+}
+
+.ci_accueil_gif {
+    text-align: center;
+}
+
+#ci_acc_fig {
+    font-family: AlienSFSolid, Montserrat;
+    color: #2ADCF4;
+    font-size: larger;
+}
+
+.ci_accueil_gif a img:hover {
+    opacity: 0.3;
+    border: #2ADCF4 groove 4px;
+    border-radius: 60px;
+    font-size: larger;
+}
+
+#ci_sommaire_p, #ci_jeu_p {
+    text-align: center;
+    padding: 2% 6%;
+    margin: 1% 5% 0% 5%;
+    background-color: #2adcf43e;
+    font-size: 1.55em;
+    border-radius: 45px 45px 45px 45px;
+}
+
+.ci_sommaire_list>li {
+    list-style-type: none;
+    margin: 10% 0% 5% 10%;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.ci_titre_page {
+    font-family: AlienSFItalic, Montserrat;
+    font-weight: normal;
+    font-size: 6em;
+    color: #2ADCF4;
+    text-align: center;
+
+}
+
+.ci_sommaire_list>ul>li, .ci_sommaire_list>ul>li>a{
+    list-style-type: none;
+    margin: 2% 0% 0% 7%;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #2ADCF4;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.ci_sommaire_list>ul>li>a:hover {
+    padding-bottom: 0;
+    border-bottom: #2ADCF4 groove 6px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 8px #2ADCF4 ;
+}
+
+.ci_film_année_pair {
+    text-align: center;
+}
+
+.ci_film_année_impair {
+    text-align: center;
+}
+
+.ci_film_année_pair>li {
+    display: inline-block;
+    width: 18%;
+    margin: 0%;
+    padding: 0%;
+    text-align: justify;
+}
+
+.ci_film_année_impair>li {
+    display: inline-block;
+    width: 18%;
+    text-indent: 18%;
+    text-align: 10%;
+}
+
+.ci_film_année_pair>li>a, .ci_film_année_impair>li>a{
+    text-decoration: none;
+    color: #2ADCF4;
+    text-shadow: 0px 0px 20px white;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.ci_film_année_impair>li>a:hover, .ci_film_année_pair>li>a:hover{
+    color: whitesmoke;
+    text-shadow: 0px 0px 20px #2ADCF4;
+}
+
+.ci_annee_cible {
+    text-align: center;
+    color: #2ADCF4;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.ci_film_pair{
+    text-align: justify;
+    display: inline-flex;
+    flex: none;
+    font-size: 1.5em;
+    background-color: #2adcf43e;
+    border-radius: 40px;
+    max-width: 100%;
+    margin: 1% 5%;
+    align-items: center;
+}
+
+.ci_film_pair p a {
+    text-align: center;
+}
+
+.ci_film_pair>img {
+    width: 30%;
+    margin: 3%;
+    border-radius: 40px;
+    object-fit: contain;
+}
+
+.ci_film_pair a, .ci_film_impair a {
+    text-decoration: none;
+    color: #2ADCF4;
+    margin: 0% 0% 0% 35%;
+}
+
+.ci_film_pair p b, .ci_film_impair p b {
+    color: #2ADCF4;
+}
+
+.ci_film_pair a:hover, .ci_film_impair a:hover {
+    border-bottom: #2ADCF4 groove 10px;
+    padding: 0%;
+    color: whitesmoke;
+}
+
+.ci_film_pair>p {
+    width: 70%;
+    margin: 2% 4% 2% 1%;
+}
+
+.ci_film_impair>p {
+    width: 70%;
+    margin: 2% 1% 2% 4%;
+}
+
+.ci_film_impair {
+    text-align: justify;
+    display: inline-flex;
+    flex: none;
+    font-size: 1.5em;
+    background-color: #2adcf43e;
+    border-radius: 40px;
+    max-width: 100%;
+    margin: 1% 5%;
+    align-items: center;
+}
+
+.ci_film_impair>img {
+    width: 30%;
+    margin: 3%;
+    border-radius: 40px;
+    object-fit: contain;
+}
+
+#ci_gloss_link {
+    color: #2ADCF4;
+    margin-left: 44%;
+}
+
+.ci_glossaire {
+    font-size: 1.4em;
+    max-width: 100%;
+
+}
+
+.ci_glossaire>p {
+    background-color: #2adcf451;
+    margin: 1% 5%;
+    padding: 2%;
+    border-radius: 40px;
+}
+
+.ci_glossaire p b {
+    color: #2ADCF4;
+}
+
+.ci_footer_links li {
+    display: inline-block;
+    list-style-type: none;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    font-family: Montserrat;
+}
+
+.ci_footer_links li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #2ADCF4;
+}
+
+/* #ci_footer_accueil {
+    position: static;
+    margin-top: 8vh;
+}
+
+#ci_footer_sommaire {
+    position: static;
+    margin-top : 27vh;
+} */
+
+.ci_body_section {
+    margin-bottom: 5%;
+}
+
+#ci_footer_accueil {
+    position: static;
+    margin-bottom: 0;
+}
+
+#ci_footer_sommaire {
+    position: static;
+    margin-bottom: 0;
+}
+/* #endregion Cinéma */
+
+
+
+/* #region Dessins-animés */
+#an-titre{
+font-family:"Press Start 2P";
+font-size: 2em;
+text-align: center;
+margin-bottom :5%;
+}
+
+.an-text{
+padding: 10px 10px 10px 10px;
+border: 5px dotted #078b33;
+margin: 5% auto;
+width: 80%;
+text-shadow: 2px 2px 3px #389355;
+font-size: 20px;
+font-weight: 600;
+letter-spacing: 2px;
+text-align: center;
+color: #c6c1c1;
+font-family:'Montserrat';
+}
+
+#halobleu{
+width: 139px;
+height: 139PX;
+position: relative;
+top: 45px;
+padding-left: 0px;
+}
+
+#an-flèche1{
+height: 100px;
+width: auto;
+overflow: hidden;
+}
+#an-flèche1{
+width: 100px;
+transition: transform .1s;
+}
+#an-flèche1:hover{
+-ms-transform: scale(1.5) translate(30px);
+-webkit-transform: scale(1.5) translate(30px);
+transform: scale(1.5) translate(30px);
+}
+
+#an-flèche2{
+height: 100px;
+width: auto;
+transform: rotate(-0.5turn);
+overflow: hidden;
+}
+#an-flèche2{
+width: 100px;
+transition: transform .1s;
+}
+#an-flèche2:hover{
+-ms-transform: scale(1.5) translate(30px);
+-webkit-transform: scale(1.5) translate(30px);
+transform: scale(1.5) translate(30px);
+}
+
+.an-album{
+display: flex;
+flex-wrap: wrap;
+flex-basis: auto; 
+flex :auto;
+align-items: center;
+justify-content : space-around;
+}
+
+.rounded-img{
+border-radius: 10px;
+}
+
+.an-vignette-img{
+background: rgba(15, 174, 95, 0.5) ;
+margin: 2%;
+padding: 20px 20px 20px 20px;
+border-radius: 20px;
+ 
+}
+
+.an-vignette-caption{
+color: white;
+text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.5), 0px 0px 2px  rgb(35, 186, 131);
+font-family:"bungeeInline";
+background: rgba(182, 255, 221, 0.5);
+margin: 0%;
+padding: 0% 5% 0% 5%;
+border-radius: 10px;
+display : grid;
+-ms-flex-align:center;
+text-align: center;
+}
+#an-body{
+    overflow-x: hidden;
+}
+
+#an-accueil-footer {
+    position: static;
+    margin-top: 24vh;
+}
+
+#an-page2-footer {
+    position: static;
+    margin-top: 4vh;
+}
+
+/* #endregion Dessins-animés */
+
+
+/* #region Technologies */
+
+#te-ancre {
+    position: fixed;
+    right: 0.35%;
+    bottom: 14%;
+    width: 4.2vw;
+    opacity: 70%;
+}
+
+#te-ancre:hover {
+    opacity: 100%;
+}
+
+.te-accueil {
+    background: black;
+    background-image: url('lib/images/background.jpg');
+    max-height: 1080px;
+    background-size: auto;
+    color: whitesmoke;
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.te-accueil footer {
+    position: absolute;
+    bottom: 0px;
+}
+
+.te-accueil #grand-titre-technologies {
+    font-family: "Press Start 2P";
+    font-size: 3em;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.te-accueil > a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.te-accueil a div {
+    margin-top: 20%;
+}
+
+.te-accueil a #grand-titre-technologies {
+    transition: 600ms ease-out;
+}
+
+.te-accueil a:hover #grand-titre-technologies {
+    transform: scale(1.5);
+}
+
+@keyframes rotate {
+    from {
+        transform: translate(0, 0);
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: translate(0, 0);
+        transform: rotate(-360deg);
+    }
+}
+
+.te-accueil a #te-rouages-haut img {
+    animation-name: rotate;
+    animation-duration: 1300ms;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+}
+
+.te-accueil a #te-rouages-bas img {
+    animation-name: rotate;
+    animation-duration: 1300ms;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+}
+
+.te-accueil a div img {
+    width: 200px;
+}
+
+.te-accueil a div #te-rouage1 {
+    position: absolute;
+    left: calc(50vw - 100px - 135px - 20px);
+    top: 450px;
+}
+
+.te-accueil a div #te-rouage2 {
+    position: absolute;
+    left: calc(50vw - 100px + 135px - 20px);
+    top: 450px;
+}
+
+.te-accueil a div #te-rouage3 {
+    position: absolute;
+    left: calc(50vw - 100px - 142px - 120px - 8px - 20px);
+    top: calc(450px + 140px);
+}
+
+.te-accueil a div #te-rouage4 {
+    position: absolute;
+    left: calc(50vw - 100px - 20px);
+    top: calc(450px + 140px);
+}
+
+.te-accueil a div #te-rouage5 {
+    position: absolute;
+    left: calc(50vw - 100px + 142px + 120px + 8px - 20px);
+    top: calc(450px + 140px);
+}
+#footer_en_bas{
+    position: static;
+    margin-top: 584px;
+}
+
+.te-accueil a div ul li {
+    flex: 18%;
+}
+
+.te-accueil a div ul img {
+    margin: 20% auto 0 auto;
+    width: 17vw;
+}
+
+.te-header {
+    padding: 0;
+    margin: 0;
+}
+
+.te-body {
+
+    background-size: auto;
+    color: whitesmoke;
+    font-family: 'Montserrat';
+    padding: 5% 5% 0 5%;
+}
+
+.te-body .te-footer-links a {
+    text-decoration: none;
+    color: #DB323D;
+}
+
+#te-footer-sommaire {
+    position: static;
+    margin-top: 128px;
+}
+
+.te-body #te-sommaire li {
+    list-style: none;
+    color: #DB323D;
+    padding-top: 30px;
+    font-weight: 650;
+}
+
+.te-video-afficheurs p a {
+    text-decoration: none;
+    list-style: none;
+    color: #DB323D;
+}
+
+
+.te-video-afficheurs p a:hover {
+    color: #FFFFFF;
+} 
+
+.te-video-afficheurs p a:active {
+    color: #FF00F5;
+} 
+
+.te-body #te-sommaire a {
+    text-decoration: none;
+    list-style: none;
+    color: #DB323D;
+}
+
+
+.te-body #te-sommaire a:hover {
+    color: #FFFFFF;
+} 
+
+.te-body #te-sommaire a:active {
+    color: #FF00F5;
+} 
+
+.te-body a:hover {
+    color: #FFFFFF;
+} 
+
+.te-body a:active {
+    color: #FF00F5;
+} 
+
+.te-body p {
+    font-weight: 500;
+    text-align: justify;
+    margin: 0;
+}
+
+.te-footer-links ul {
+    font-family: "Press Start 2P";
+    font-size: 1em;
+    list-style: none;
+    display: flex;
+    flex: 3;
+    justify-content: space-between;
+}
+
+.te-footer-links ul li {
+    flex: 1;
+}
+
+.te-paragraphe-accroche {
+    font-weight: normal;
+    margin: 10% 0 10% 0;
+    font-size: 1.2em;
+} 
+
+.te-body h2 {
+    font-family: 'Press Start 2P';
+    text-align: center;
+    font-weight: 400;
+    font-size: 3em;
+    margin: 5% 0 4% 0;
+    color: #DB323D;
+}
+
+.te-body h3 {
+    font-size: 2em;
+    margin: 10% 0 6% 0;
+    text-align: center;
+}
+
+.te-body h4 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.te-body h5 {
+    margin-top: 10%;
+    padding-left: 2%;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.te-body .te-footer-links ul {
+    list-style: none;
+    padding: 0 0 0 0;
+}
+
+
+.te-body .te-footer-links li {
+    padding-top: 30px;
+    font-weight: 650;
+    color: #DB323D;
+}
+
+.te-figure-gauche {
+    float: left;
+    margin: 0 2% 2% 0;
+}
+
+.te-figure-droite {
+    float: right;
+    margin: 0 0 2% 2%;
+}
+
+.te-body figure {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.te-body figure img {
+    height: 25vh;
+}
+
+#te-figure-ecrans {
+    margin: 0 0 6% 0;
+    caption-side: bottom;
+    font-style: italic;
+}
+
+#te-figure-ecrans div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#te-figure-ecrans img {
+    height: 18vw;
+}
+
+#te-div-manettes {
+    display: flex;
+    justify-content: space-between;
+}
+
+#te-div-manettes figure {
+    margin: 4% 0 4% 0;
+}
+
+#te-div-manettes figure img {
+    height: 25vw;
+}
+
+.te-article {
+    background-color: rgba(219, 50, 61, 0.2);
+    border: white 1px solid;
+    border-radius: 40px;
+    padding: 3%;
+    margin: 4% 0 4% 0;
+}
+
+.te-article-stockage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    vertical-align: middle;
+    flex-wrap: wrap;
+}
+
+.te-article-stockage h4 {
+    font-size: 2em;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.te-article-stockage h3 {
+    font-size: 1.2em;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 4% 0;
+}
+
+#te-article-double-div {
+    display: flex;
+}
+
+.te-article-stockage p {
+    display: inline-block;
+    width: 75%;
+    text-align: justify;
+    vertical-align: middle;
+    margin-top: 2%;
+}
+
+.te-article-stockage div p {
+    display: block;
+    width: initial;
+    text-align: justify;
+}
+
+.te-article-stockage div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    padding: 3%;
+    color: black;
+}
+
+.te-article-connexion {
+    min-height: 20vw;
+}
+
+.te-article-connexion .te-droite {
+    float: right;
+    margin: 0 0 2% 2%;
+}
+
+.te-article-connexion .te-gauche {
+    float: left;
+    margin: 0 2% 2% 0;
+}
+
+.te-article-connexion .te-centre {
+    display: block;
+    margin: 4% auto auto auto;
+}
+
+.te-div-double {
+    max-width: 42%;
+    min-height: calc(100vh - 35vw);
+}
+
+.te-stockage-img {
+    width: 20%;
+    height: 20%;
+    vertical-align: middle;
+}
+
+.te-audio-img {
+    width: 25%;
+    height: 25%;
+}
+
+.te-connexion-img {
+    height: 20vw;
+}
+
+.te-connexion-logo {
+    width: 13vw;
+}
+
+.te-audio-img-gauche {
+    float: left;
+    margin-right: 2%;
+}
+
+.te-audio-img-droite {
+    float: right;
+    margin-left: 2%;
+}
+
+/* #endregion Technologies */
